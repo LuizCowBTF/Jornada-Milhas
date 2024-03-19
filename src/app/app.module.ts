@@ -14,6 +14,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
+import { CardDepoimentoComponent } from './shared/card-depoimento/card-depoimento.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { MatCardModule } from '@angular/material/card';
     HomeComponent,
     ContainerComponent,
     CardBuscaComponent,
+    CardDepoimentoComponent,
   ],
   imports: [
     BrowserModule,
