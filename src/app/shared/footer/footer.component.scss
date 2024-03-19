@@ -1,4 +1,4 @@
-.banner {
+.app-footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6,6 +6,10 @@
   background-color: black;
   color: #00CCFF;
   font-size: 18px;
-  margin: 0px auto;
-  padding: 60px auto;
+  margin: -10px auto;
+  padding: 60px 0;
+
+  img {
+    padding: 15px 0;
+  }
 }
